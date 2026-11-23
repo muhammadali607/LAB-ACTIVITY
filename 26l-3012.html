@@ -1,0 +1,164 @@
+<html>
+ <head>
+ <title>Lab Tasks</title>
+ <link rel="stylesheet" href="26l-3012.css">
+ </head>
+ <body>
+
+ <!-- Task 01 -->
+ <div id="task1">
+ <h1>My First Web Page</h1>
+
+ <p>This is a paragraph. <b>This text is bold.</b> <i>This text is italic.</i> <u>This text is underlined.</u></p>
+
+ <p class="small">This paragraph has font size 12px.</p>
+ <p class="medium">This paragraph has font size 20px.</p>
+ <p class="large">This paragraph has font size 32px.</p>
+
+ <p class="right">This paragraph is aligned to the right.</p>
+ <p class="left">This paragraph is aligned to the left.</p>
+ <p class="center">This paragraph is aligned to the centre.</p>
+
+ <a href="https://www.google.com">Click here to visit Google</a>
+ <br>
+ <img src="image.jpg" alt="My Image" width="200" height="200">
+ </div>
+
+ <hr>
+
+ <!-- Task 02 -->
+ <div id="task2">
+ <h1>Courses Taught</h1>
+ <ol type="a">
+ <li>Web Programming</li>
+ <li>Discrete Structures</li>
+ <li>Electronic Commerce</li>
+ <li>Database Systems</li>
+ <li>Introduction to Computing</li>
+ </ol>
+
+ <h1>Nested List Example</h1>
+ <ol type="I">
+ <li>Web Programming
+ <ul type="square">
+ <li>Autumn 2014
+ <ol type="I" start="3">
+ <li>September - January</li>
+ <li>February - June</li>
+ </ol>
+ </li>
+ <li>Spring 2015</li>
+ </ul>
+ </li>
+ <li>Discrete Structures
+ <ol type="i">
+ <li>Summer 2014</li>
+ </ol>
+ </li>
+ <li>Electronic Commerce</li>
+ <li>Database Systems</li>
+ <li>Introduction to Computing</li>
+ </ol>
+ </div>
+
+ <hr>
+
+ <!-- Task 03 -->
+ <div id="task3">
+ <h2>Continental Hotel Reservation Form</h2>
+
+ <form action="/action_page.php">
+ <table border="1" align="center">
+ <tr>
+ <th>Name</th>
+ <td><input type="text" name="name" placeholder="Enter your name"></td>
+ </tr>
+ <tr>
+ <th>eMail</th>
+ <td><input type="email" name="email" value="info@continental.pk"></td>
+ </tr>
+ <tr>
+ <th>Mobile No</th>
+ <td><input type="text" name="mobile" placeholder="Enter your cell number"></td>
+ </tr>
+ <tr>
+ <th>Arrival Time</th>
+ <td><input type="text" name="arrival" placeholder="Enter your arrival time"></td>
+ </tr>
+ <tr>
+ <th>Departure</th>
+ <td><input type="date" name="departure_date"> <input type="time" name="departure_time"></td>
+ </tr>
+ <tr>
+ <th>Room Type</th>
+ <td>
+ <input type="radio" name="room" value="single">Single
+ <input type="radio" name="room" value="double">Double<br>
+ <input type="radio" name="room" value="suite">Presidential Suite
+ </td>
+ </tr>
+ <tr>
+ <th>Preferences</th>
+ <td>
+ <input type="checkbox" name="pref1">Non-Smoking<br>
+ <input type="checkbox" name="pref2">Internet<br>
+ <input type="checkbox" name="pref3">Firm Mattress
+ </td>
+ </tr>
+ <tr>
+ <th>Mode of Payment</th>
+ <td>
+ <input type="checkbox" name="cash">Cash
+ <input type="checkbox" name="check">Check<br>
+ <input type="checkbox" name="card">Credit Card
+ <select name="cardtype">
+ <option value="select">Select Card</option>
+ <option value="visa">Visa</option>
+ <option value="master">MasterCard</option>
+ </select>
+ </td>
+ </tr>
+ <tr>
+ <td colspan="2" id="submitrow"><input type="submit" value="Send Data"></td>
+ </tr>
+ </table>
+ </form>
+ </div>
+
+ <hr>
+
+ <!-- Task 04 -->
+ <div id="task4">
+ <div id="main">
+
+ <div id="header">
+ <h1>Victoria's Journal</h1>
+ <p>So fresh and so clean</p>
+ </div>
+
+ <div id="friends">
+ <h2>Friends</h2>
+ <ul>
+ <li>100 Buddies</li>
+ <li>Big Will</li>
+ <li>Conan the Librarian</li>
+ </ul>
+ </div>
+
+ <div class="entry">
+ <h2><span class="date">04/09/08:</span> Spatulas</h2>
+ <img src="spatula.jpg" alt="Spatula" width="120" height="120">
+ <p>Yesterday, I went to the store and got some much needed spatulas! (what better way to say I love myself than to buy myself a spatula?)</p>
+ </div>
+
+ <div class="entry">
+ <h2><span class="date">04/08/08:</span> Cookie Cupcakes</h2>
+ <img src="cupcakes.jpg" alt="Cookie Cupcakes" width="120" height="100">
+ <p>My favorite cartoon character is cookie, and my favorite dessert is cupcakes. So Cookie Cupcakes are best of both the worlds. I wonder if the same applies for the cupcakes?</p>
+ </div>
+
+ </div>
+ </div>
+
+ </body>
+</html>
